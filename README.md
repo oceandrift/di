@@ -1,3 +1,3 @@
 # oceandrift/di
 
-A lightweight **Dependency Injection (DI)** framework with a focus on simplicity.
+A lightweight **Dependency Injection (DI)** framework with focus on simplicity.
