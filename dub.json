@@ -1,0 +1,7 @@
+{
+	"name": "oceandrift-di",
+	"description": "Lightweight Dependency Injection (DI) framework",
+	"copyright": "Copyright © 2024  Elias Batek",
+	"license": "BSL-1.0",
+	"targetPath": "bin"
+}
