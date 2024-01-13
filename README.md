@@ -9,7 +9,7 @@ When using DUB, it’s as simple as running `dub add oceandrift-di`.
 ## Usage
 
 See in-code documentation for details.
-Or check out the [pre-rendered copy](https://oceandrift-di.dpldocs.info/)
+Or check out the [pre-rendered copy](https://oceandrift-di.dpldocs.info/oceandrift.di.html)
 on dpldocs.
 
 ```d
