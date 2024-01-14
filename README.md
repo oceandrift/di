@@ -28,7 +28,7 @@ class Foo {
     }
 }
 
-// Instantiate DI.
+// Bootstrap the DI framework.
 // Then let it resolve the whole dependency tree
 // and construct dependencies as needed.
 auto di = new DI();
