@@ -5,7 +5,7 @@ A lightweight **Dependency Injection (DI)** framework with focus on simplicity.
 - Inversion of Control (IoC).
 - Convention over configuration.
 - Injects dependencies via constructor parameters.
-- Supports structs as well (… as classes).
+- Supports structs as well (… as classes and interfaces).
 - No clutter – this library is a single, readily comprehensible file.
 - No external dependencies. (\*Only the D standard library is used.)
 
