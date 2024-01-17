@@ -29,7 +29,7 @@ class Foo {
 }
 
 // Bootstrap the DI framework.
-// Then let it resolve the whole dependency tree
+// Then let it resolve the whole dependency tree of `Foo`
 // and construct dependencies as needed.
 auto di = new DI();
 Foo foo = di.resolve!Foo();
