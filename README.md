@@ -34,3 +34,27 @@ class Foo {
 auto di = new DI();
 Foo foo = di.resolve!Foo();
 ```
+
+### Less boilerplate
+
+```d
+class Foo {
+    // Mark fields as @dependency.
+    private @dependency Dependency1 d1;
+    private @dependency Dependency2 d2;
+
+    // Generate a constructor that assigns all dependencies.
+    mixin DIConstructor;
+
+// The generated constructor corresponds roughly to this code:
+/*
+    public this(
+        Dependency1 d1,
+        Dependency2 d2,
+    ) {
+        this.d1 = d1;
+        this.d2 = d2;
+    }
+ */
+}
+```
