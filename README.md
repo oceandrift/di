@@ -2,6 +2,11 @@
 
 A lightweight **Dependency Injection (DI)** framework with focus on simplicity.
 
+> [!IMPORTANT]
+> This library has been adopted by *arsd*
+> and is now maintained as `arsd.di`.
+> See: <https://github.com/adamdruppe/arsd/blob/master/di.d>
+
 - Inversion of Control (IoC).
 - Convention over configuration.
 - Injects dependencies via constructor parameters.
